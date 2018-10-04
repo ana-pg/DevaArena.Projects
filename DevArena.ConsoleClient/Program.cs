@@ -60,27 +60,52 @@ namespace DevArena.ConsoleClient
                     Console.WriteLine("Get users:");
                     Console.WriteLine("1. All users (Administrators only)");
                     Console.WriteLine("2. Guest and external users (Administrators and Guests)");
-                    Console.WriteLine("3. Exit");
+                    Console.WriteLine("3. Show tokens");
+                    Console.WriteLine("4. Exit");
 
                     var access = "0";
                     access = Console.ReadLine();
                     HttpClient client;
-                    if (access != "3")
+                    if (access != "4")
                     {
-                        while (access == "1" || access == "2")
+                        while (access == "1" || access == "2" || access == "3")
                         {
-                            client = new HttpClient();
-                            client.BaseAddress = new Uri("http://localhost:53377/");
-                            client.SetBearerToken(tokenResponsePass.AccessToken);
-                            var response = await client.GetAsync(access == "1" ? "admin" : "guest");
-                            Console.WriteLine("Response: " + response.StatusCode.ToString());
+                            if (access == "3")
+                            {
+                                var access_token = tokenResponsePass.AccessToken;
+                                
+                                
+                                var httpC= new HttpClient();
+                                httpC.BaseAddress = new Uri("http://localhost:5000/");
+                                httpC.SetBearerToken(access_token);
+                                var resp = await httpC.GetAsync("connect/userinfo");
+                                //todo get content
+                                
+                                var id_token = tokenResponsePass.IdentityToken;
 
-                            Console.WriteLine();
-                            Console.WriteLine("Try another API resource:");
-                            Console.WriteLine("1. All users (Administrators only)");
-                            Console.WriteLine("2. Guest and external users (Administrators and Guests)");
-                            Console.WriteLine("3. Exit");
+                                Console.WriteLine("Access_token: " + access_token);
+                                Console.WriteLine("Identity_token: " + id_token);
+                                Console.WriteLine();
+                            }
+                            else
+                            {
 
+
+
+                                client = new HttpClient();
+                                client.BaseAddress = new Uri("http://localhost:53377/");
+                                client.SetBearerToken(tokenResponsePass.AccessToken);
+                                var response = await client.GetAsync(access == "1" ? "admin" : "guest");
+                                Console.WriteLine("Response: " + response.StatusCode.ToString());
+
+                                Console.WriteLine();
+                                Console.WriteLine("Try another API resource:");
+                                Console.WriteLine("1. All users (Administrators only)");
+                                Console.WriteLine("2. Guest and external users (Administrators and Guests)");
+                                Console.WriteLine("3. Exit");
+
+                                
+                            }
                             access = Console.ReadLine();
                         }
                     }

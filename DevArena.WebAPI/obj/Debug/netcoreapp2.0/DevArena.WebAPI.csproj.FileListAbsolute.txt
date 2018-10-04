@@ -9,9 +9,3 @@ D:\IdentityServer4\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.0\Dev
 D:\IdentityServer4\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.0\DevArena.WebAPI.AssemblyInfo.cs
 D:\IdentityServer4\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.0\DevArena.WebAPI.dll
 D:\IdentityServer4\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.0\DevArena.WebAPI.pdb
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.0\DevArena.WebAPI.csprojAssemblyReference.cache
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.0\DevArena.WebAPI.csproj.CoreCompileInputs.cache
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.0\DevArena.WebAPI.AssemblyInfoInputs.cache
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.0\DevArena.WebAPI.AssemblyInfo.cs
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.0\DevArena.WebAPI.dll
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.0\DevArena.WebAPI.pdb

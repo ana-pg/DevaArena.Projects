@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Filters;
+
+namespace DevArena.Library
+{
+    public class AuthorizeByRoleAttribute : AuthorizeAttribute, IAuthorizationFilter
+    {
+        private RoleEnum role = RoleEnum.External;
+
+        public AuthorizeByRoleAttribute(long? role)
+        {
+
+        }
+
+        public AuthorizeByRoleAttribute(long? role)
+        {
+
+        }
+
+        public void OnAuthorization(AuthorizationFilterContext context)
+        {
+            
+        }
+    }
+}
