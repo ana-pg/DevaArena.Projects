@@ -10,13 +10,13 @@ using Microsoft.AspNetCore.Mvc;
 namespace DevArena.WebAPI.Controllers
 {
     [Route("api/[controller]")]
-    public class GetUsersByRoleController : Controller
+    public class GetUsersByAccessController : Controller
     {
         private readonly string ConnString =
             "Server = (localdb)\\MSSQLLocalDB;Database=IdentityServer4;Trusted_Connection=True;MultipleActiveResultSets=true";
 
 
-        public GetUsersByRoleController()
+        public GetUsersByAccessController()
         {
         }
 
@@ -41,14 +41,14 @@ namespace DevArena.WebAPI.Controllers
             return result;
         }
 
-        [AuthorizeByRole(RoleEnum.Administrator)]
+        [AuthorizeAccess(RoleEnum.Administrator)]
         [HttpGet, Route("/admin")]
         public IEnumerable<string> GetForAdministrator()
         {
             return GetForRole(1);
         }
 
-        [AuthorizeByRole(RoleEnum.Guest)]
+        [AuthorizeAccess(RoleEnum.Guest)]
         [HttpGet, Route("/guest")]
         public IEnumerable<string> GetForGuest()
         {

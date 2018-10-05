@@ -16,12 +16,16 @@ namespace DevArena.WebAPI
 {
     public class Startup
     {
+
+        private const string Is4Url = "http://localhost:5001";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
+
+        
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -39,7 +43,7 @@ namespace DevArena.WebAPI
                 })
             .AddIdentityServerAuthentication(options =>
             {
-                options.Authority = "http://localhost:5000";
+                options.Authority = Is4Url;
                 options.RequireHttpsMetadata = false;
                 options.ApiName = "devarena.api";
                 options.SupportedTokens = SupportedTokens.Both;
@@ -55,9 +59,14 @@ namespace DevArena.WebAPI
                     {
                         Type="oauth2",
                         Flow="implicit",
-                        AuthorizationUrl ="localhost:5000/connect/authorize",
-                        TokenUrl="localhost:5000/connect/token",
-                        Scopes = new Dictionary<string, string> { { "devarena.api.limited_access", "Dev Arena protected API" }, { "devarena.full_access", "Dev Arena protected Api" } }
+                        AuthorizationUrl = $"{Is4Url}/connect/authorize",
+                        TokenUrl= $"{Is4Url}/connect/token",
+                        Scopes = new Dictionary<string, string>
+                        {
+                            //{ "devarena.api.limited_access", "Dev Arena limited access" },
+                            //{ "devarena.api.full_access", "Dev Arena full access" },
+                            { "devarena.api", "Dev Arena protected API" }
+                        }
                     });
 
                 options.OperationFilter<AuthorizeCheckOperationFilter>();

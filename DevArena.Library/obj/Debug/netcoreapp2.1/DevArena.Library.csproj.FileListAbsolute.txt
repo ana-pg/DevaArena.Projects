@@ -7,3 +7,12 @@ D:\DevArena2018\DevArena.Projects\DevArena.Library\bin\Debug\netcoreapp2.1\DevAr
 D:\DevArena2018\DevArena.Projects\DevArena.Library\obj\Debug\netcoreapp2.1\DevArena.Library.dll
 D:\DevArena2018\DevArena.Projects\DevArena.Library\obj\Debug\netcoreapp2.1\DevArena.Library.pdb
 D:\DevArena2018\DevArena.Projects\DevArena.Library\obj\Debug\netcoreapp2.1\DevArena.Library.csprojAssemblyReference.cache
+D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.Library\bin\Debug\netcoreapp2.1\DevArena.Library.deps.json
+D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.Library\bin\Debug\netcoreapp2.1\DevArena.Library.dll
+D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.Library\bin\Debug\netcoreapp2.1\DevArena.Library.pdb
+D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.Library\obj\Debug\netcoreapp2.1\DevArena.Library.csprojAssemblyReference.cache
+D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.Library\obj\Debug\netcoreapp2.1\DevArena.Library.csproj.CoreCompileInputs.cache
+D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.Library\obj\Debug\netcoreapp2.1\DevArena.Library.AssemblyInfoInputs.cache
+D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.Library\obj\Debug\netcoreapp2.1\DevArena.Library.AssemblyInfo.cs
+D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.Library\obj\Debug\netcoreapp2.1\DevArena.Library.dll
+D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.Library\obj\Debug\netcoreapp2.1\DevArena.Library.pdb

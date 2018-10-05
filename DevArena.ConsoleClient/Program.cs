@@ -13,7 +13,7 @@ namespace DevArena.ConsoleClient
 
         private static async Task MainAsync()
         {
-            var disco = await DiscoveryClient.GetAsync("http://localhost:5000");
+            var disco = await DiscoveryClient.GetAsync("http://localhost:5001");
 
             Console.WriteLine("DevArena IdentityServer4 Demo For ResourceOwnerPassWord and ClientCredentials Client Grant type flows");
 
@@ -24,7 +24,7 @@ namespace DevArena.ConsoleClient
                 Console.WriteLine("Options:");
                 Console.WriteLine("1. User login authentication                 (press l)");
                 Console.WriteLine("2. Application / device authentication       (press 2)");
-                Console.WriteLine("3. Exit                                      (press 3)");
+                Console.WriteLine("9. Exit                                      (press 3)");
                 selection = Console.ReadLine();
                 Console.WriteLine("\n");
             }
@@ -42,8 +42,14 @@ namespace DevArena.ConsoleClient
                 Console.WriteLine("\n");
 
                 var tokenClientPass = new TokenClient(disco.TokenEndpoint, "console.clientid", "console.secret");
-                
-                var tokenResponsePass = await tokenClientPass.RequestResourceOwnerPasswordAsync(userName, userPass);
+
+                var requested_scopes = "openid ";
+                requested_scopes += userName == "admin" || userName == "guest" ? 
+                    userName == "admin" ? "devarena.api.full_access" : "devarena.api.limited_access"
+                    : "";
+
+                var tokenResponsePass = await tokenClientPass.RequestResourceOwnerPasswordAsync(userName, userPass
+                    ,requested_scopes);
 
                 if (tokenResponsePass.IsError)
                 {
@@ -54,13 +60,13 @@ namespace DevArena.ConsoleClient
                 else
                 {
                     Console.WriteLine("Your authentication is SUCCESSFUL.");
-                    Console.WriteLine(tokenResponsePass.Json);
+                    //Console.WriteLine(tokenResponsePass.Json);
                     Console.WriteLine("\n");
 
                     Console.WriteLine("Get users:");
-                    Console.WriteLine("1. All users (Administrators only)");
-                    Console.WriteLine("2. Guest and external users (Administrators and Guests)");
-                    Console.WriteLine("3. Show tokens");
+                    Console.WriteLine("1. All users (full_access)");
+                    Console.WriteLine("2. Guest and external users (limited_access)");
+                    Console.WriteLine("3. Show token");
                     Console.WriteLine("4. Exit");
 
                     var access = "0";
@@ -75,22 +81,20 @@ namespace DevArena.ConsoleClient
                                 var access_token = tokenResponsePass.AccessToken;
                                 
                                 
-                                var httpC= new HttpClient();
-                                httpC.BaseAddress = new Uri("http://localhost:5000/");
-                                httpC.SetBearerToken(access_token);
-                                var resp = await httpC.GetAsync("connect/userinfo");
-                                //todo get content
+                                //var httpC= new HttpClient();
+                                //httpC.BaseAddress = new Uri("http://localhost:5001/");
+                                //httpC.SetBearerToken(access_token);
+                                //var resp = await httpC.GetAsync("connect/userinfo");
+                                ////todo get content
                                 
-                                var id_token = tokenResponsePass.IdentityToken;
+                                //var id_token = tokenResponsePass.IdentityToken;
 
                                 Console.WriteLine("Access_token: " + access_token);
-                                Console.WriteLine("Identity_token: " + id_token);
+                                //Console.WriteLine("Identity_token: " + id_token);
                                 Console.WriteLine();
                             }
                             else
                             {
-
-
 
                                 client = new HttpClient();
                                 client.BaseAddress = new Uri("http://localhost:53377/");
@@ -100,22 +104,23 @@ namespace DevArena.ConsoleClient
 
                                 Console.WriteLine();
                                 Console.WriteLine("Try another API resource:");
-                                Console.WriteLine("1. All users (Administrators only)");
-                                Console.WriteLine("2. Guest and external users (Administrators and Guests)");
-                                Console.WriteLine("3. Exit");
+                                Console.WriteLine("1. All users (full_access)");
+                                Console.WriteLine("2. Guest and external users (limited_access)");
+                                Console.WriteLine("3. Show token");
+                                Console.WriteLine("4. Exit");
 
-                                
+
                             }
                             access = Console.ReadLine();
                         }
                     }
                 }
-                Console.ReadLine();
+                selection = Console.ReadLine();
             }
             else if (selection == "2")
             {
                 var tokenClientCreds = new TokenClient(disco.TokenEndpoint, "console.clientid", "console.secret");
-                var tokenResponsePass = await tokenClientCreds.RequestClientCredentialsAsync("devarena.api.client_access");
+                var tokenResponsePass = await tokenClientCreds.RequestClientCredentialsAsync("devarena.api.limited_access");
 
                 if (tokenResponsePass.IsError)
                     Console.WriteLine("Client console.clientid/console.secret Not Authorized");
