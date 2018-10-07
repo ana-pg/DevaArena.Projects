@@ -15,7 +15,8 @@ function log() {
 }
 
 document.getElementById("login").addEventListener("click", login, false);
-document.getElementById("api").addEventListener("click", api, false);
+document.getElementById("admin").addEventListener("click", full_access, false);
+document.getElementById("guest").addEventListener("click", limited_access, false);
 document.getElementById("logout").addEventListener("click", logout, false);
 
 var config = {
@@ -41,11 +42,27 @@ function login() {
     mgr.signinRedirect();
 }
 
-function api() {
+function full_access() {
     mgr.getUser().then(function (user) {
 
         
         var url = "http://localhost:53377/admin";
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", url);
+        xhr.onload = function () {
+            log(xhr.status, JSON.parse(xhr.responseText));
+        }
+        xhr.setRequestHeader("Authorization", "Bearer " + user.access_token);
+        xhr.send();
+    });
+}
+
+function limited_access() {
+    mgr.getUser().then(function (user) {
+
+
+        var url = "http://localhost:53377/guest";
 
         var xhr = new XMLHttpRequest();
         xhr.open("GET", url);

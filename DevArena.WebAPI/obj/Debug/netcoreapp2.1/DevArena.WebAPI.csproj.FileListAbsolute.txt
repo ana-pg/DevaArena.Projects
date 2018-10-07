@@ -1,17 +1,3 @@
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.WebAPI.deps.json
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.WebAPI.runtimeconfig.json
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.WebAPI.runtimeconfig.dev.json
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.WebAPI.dll
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.WebAPI.pdb
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.Library.dll
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.Library.pdb
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.csprojAssemblyReference.cache
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.csproj.CoreCompileInputs.cache
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.AssemblyInfoInputs.cache
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.AssemblyInfo.cs
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.csproj.CopyComplete
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.dll
-D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.pdb
 D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.WebAPI.deps.json
 D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.WebAPI.runtimeconfig.json
 D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.WebAPI.runtimeconfig.dev.json
@@ -26,3 +12,17 @@ D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\
 D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.csproj.CopyComplete
 D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.dll
 D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.pdb
+D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.WebAPI.deps.json
+D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.WebAPI.runtimeconfig.json
+D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.WebAPI.runtimeconfig.dev.json
+D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.WebAPI.dll
+D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.WebAPI.pdb
+D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.Library.dll
+D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\bin\Debug\netcoreapp2.1\DevArena.Library.pdb
+D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.csprojAssemblyReference.cache
+D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.csproj.CoreCompileInputs.cache
+D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.AssemblyInfoInputs.cache
+D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.AssemblyInfo.cs
+D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.csproj.CopyComplete
+D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.dll
+D:\DevArena2018\DevArena.Projects\DevArena.WebAPI\obj\Debug\netcoreapp2.1\DevArena.WebAPI.pdb

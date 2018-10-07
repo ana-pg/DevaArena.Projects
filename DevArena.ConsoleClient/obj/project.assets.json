@@ -778,23 +778,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\apg\\.nuget\\packages\\": {},
+    "C:\\Users\\APG\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IDENTITYSERVER4 - DEVARENA - WIP\\DevArena.GitHub\\Projects\\DevaArena.Projects\\DevArena.ConsoleClient\\DevArena.ConsoleClient.csproj",
+      "projectUniqueName": "D:\\DevArena2018\\DevArena.Projects\\DevArena.ConsoleClient\\DevArena.ConsoleClient.csproj",
       "projectName": "DevArena.ConsoleClient",
-      "projectPath": "D:\\IDENTITYSERVER4 - DEVARENA - WIP\\DevArena.GitHub\\Projects\\DevaArena.Projects\\DevArena.ConsoleClient\\DevArena.ConsoleClient.csproj",
-      "packagesPath": "C:\\Users\\apg\\.nuget\\packages\\",
-      "outputPath": "D:\\IDENTITYSERVER4 - DEVARENA - WIP\\DevArena.GitHub\\Projects\\DevaArena.Projects\\DevArena.ConsoleClient\\obj\\",
+      "projectPath": "D:\\DevArena2018\\DevArena.Projects\\DevArena.ConsoleClient\\DevArena.ConsoleClient.csproj",
+      "packagesPath": "C:\\Users\\APG\\.nuget\\packages\\",
+      "outputPath": "D:\\DevArena2018\\DevArena.Projects\\DevArena.ConsoleClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\apg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\APG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -802,7 +802,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\SAUTER\\NuGet": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://www.myget.org/F/imagesharp/api/v3/index.json": {},
         "https://www.myget.org/F/peachpie/api/v3/index.json": {}

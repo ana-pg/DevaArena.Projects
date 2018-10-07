@@ -1,14 +1,3 @@
-D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\bin\Debug\netcoreapp2.1\DevArena.ConsoleClient.deps.json
-D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\bin\Debug\netcoreapp2.1\DevArena.ConsoleClient.runtimeconfig.json
-D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\bin\Debug\netcoreapp2.1\DevArena.ConsoleClient.runtimeconfig.dev.json
-D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\bin\Debug\netcoreapp2.1\DevArena.ConsoleClient.dll
-D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.csproj.CoreCompileInputs.cache
-D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.AssemblyInfoInputs.cache
-D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.AssemblyInfo.cs
-D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\bin\Debug\netcoreapp2.1\DevArena.ConsoleClient.pdb
-D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.csprojAssemblyReference.cache
-D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.dll
-D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.pdb
 D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.ConsoleClient\bin\Debug\netcoreapp2.1\DevArena.ConsoleClient.deps.json
 D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.ConsoleClient\bin\Debug\netcoreapp2.1\DevArena.ConsoleClient.runtimeconfig.json
 D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.ConsoleClient\bin\Debug\netcoreapp2.1\DevArena.ConsoleClient.runtimeconfig.dev.json
@@ -20,3 +9,14 @@ D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\
 D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.AssemblyInfo.cs
 D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.dll
 D:\IDENTITYSERVER4 - DEVARENA - WIP\DevArena.GitHub\Projects\DevaArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.pdb
+D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\bin\Debug\netcoreapp2.1\DevArena.ConsoleClient.deps.json
+D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\bin\Debug\netcoreapp2.1\DevArena.ConsoleClient.runtimeconfig.json
+D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\bin\Debug\netcoreapp2.1\DevArena.ConsoleClient.runtimeconfig.dev.json
+D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\bin\Debug\netcoreapp2.1\DevArena.ConsoleClient.dll
+D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\bin\Debug\netcoreapp2.1\DevArena.ConsoleClient.pdb
+D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.csprojAssemblyReference.cache
+D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.csproj.CoreCompileInputs.cache
+D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.AssemblyInfoInputs.cache
+D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.AssemblyInfo.cs
+D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.dll
+D:\DevArena2018\DevArena.Projects\DevArena.ConsoleClient\obj\Debug\netcoreapp2.1\DevArena.ConsoleClient.pdb

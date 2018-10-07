@@ -30,6 +30,17 @@ namespace DevArena.WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllHeaders",
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin();
+                        builder.AllowAnyHeader();
+                        builder.AllowAnyMethod();
+                    });
+            });
+
             services.AddMvc()
                 .AddJsonOptions(options =>
                     {
@@ -72,6 +83,8 @@ namespace DevArena.WebAPI
                 options.OperationFilter<AuthorizeCheckOperationFilter>();
                 options.DescribeAllEnumsAsStrings();
             });
+
+            services.AddMvc();
 
             //services.
         }
